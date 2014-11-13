@@ -1,0 +1,33 @@
+{
+  "name": "hungryAlbert",
+  "version": "0.0.0",
+  "description": "simple web server",
+  "main": "passport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirKylePoland/hungryalbert.git"
+  },
+  "author": "Kyle Poland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirKylePoland/hungryalbert/issues"
+  },
+  "homepage": "https://github.com/SirKylePoland/hungryalbert",
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8",
+    "express3-handlebars": "~0.5.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport" : "*",     
+    "passport-local" : "*",
+    "connect-flash" : "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
